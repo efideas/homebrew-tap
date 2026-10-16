@@ -1,9 +1,9 @@
 cask "claude-switcher" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.1.1"
-  sha256 arm:   "d65785b5dd8b62a83879f5687b141564919f8e5de1baffe58115649835074cc8",
-         intel: "c903003ff9056264c0215ed6a7b75bffb570c4a149380c91df2db5a405ffeff3"
+  version "0.2.0"
+  sha256 arm:   "00066530f5de361ca9068350332df74b6731d03209065c22dc2aaa53f9d3c42f",
+         intel: "14db32e7b126f1f5d51c5418d43b8510e768900c8d4327652cd291362fb92c81"
 
   url "https://github.com/efideas/claude-switcher/releases/download/v#{version}/Claude.Switcher_#{version}_#{arch}.dmg"
   name "Claude Switcher"
